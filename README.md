@@ -1,7 +1,7 @@
 
-# 🚀 Node.js CI/CD with GitHub Actions + Render ✨
+# 🚀 Node.js CI/CD with GitHub Actions + Render + Azure Cloud✨
 
-Welcome to my **Node.js Demo Profile App** with a fully working **CI/CD pipeline** using **GitHub Actions** and **Render**! 🎯  
+Welcome to my **Node.js Demo Profile App** with a fully working **CI/CD pipeline** using **GitHub Actions** and **Render** and **Azure Cloud**! 🎯  
 This project shows how modern DevOps workflows work — from writing code to testing, validating, and deploying it automatically!
 
 ---
@@ -26,6 +26,7 @@ This project shows how modern DevOps workflows work — from writing code to tes
 ├── .github/
 │   └── workflows/
 │       └── ci-cd.yml  ← CI/CD Workflow File ⚙️
+|        └── Azure-pipelines-static-web-app.yml
 ├── views/
 │   └── index.html     ← Frontend HTML 🖼️
 ├── app.js             ← Node.js Backend 🧠
@@ -46,6 +47,7 @@ This project shows how modern DevOps workflows work — from writing code to tes
 - Deploys only **if everything passes**
 
 ✅ Deployed to [Render](https://render.com)
+✅ Deployed to [Azure](https://azure.com)
 
 ---
 
@@ -54,7 +56,7 @@ This project shows how modern DevOps workflows work — from writing code to tes
 - **Node.js**
 - **HTML**
 - **GitHub Actions**
-- **Render (Deploy Platform)**
+- **Render (Deploy Platform)** / - **Azure (Deploy Platform)**
 - **ESLint** for syntax checks
 
 ---
